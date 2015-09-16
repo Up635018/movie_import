@@ -1,0 +1,22 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: user
+ * Date: 16/09/2015
+ * Time: 11:05
+ */
+
+/**
+ * Implements hook menu
+ */
+function movie_import_menu() {
+    $items['import-movie'] = array(
+        'title'
+        'page callback' => 'mymodule_abc_view',
+    );
+    return $items;
+}
+
+function mymodule_abc_view($ghi = 0, $jkl = '') {
+    // ...
+}
